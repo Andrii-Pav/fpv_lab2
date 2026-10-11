@@ -1,0 +1,45 @@
+=== Система ===
+Description:	Ubuntu 22.04.5 LTS
+Архітектура: x86_64
+Python 3.10.12
+Mem:           9.7Gi       988Mi       7.7Gi        37Mi       1.0Gi       8.4Gi
+Swap:          2.0Gi          0B       2.0Gi
+Графіка: OpenGL renderer string: SVGA3D; build: RELEASE;  LLVM;
+
+=== Версії ПЗ ===
+ROS 2:       ros-humble-desktop 0.10.0-1jammy.20260908.101832
+Gazebo:      gz-harmonic 1.0.0-1~jammy
+colcon-core: 0.21.3+upstream-1
+ArduPilot:   ArduPilot-4.6.0-beta1-9182-gd67add0b9b
+GZ_VERSION=harmonic
+
+=== Інструменти ===
+[ OK ] ROS_DISTRO = humble
+[ OK ] ros2 CLI
+[ OK ] colcon
+[ OK ] rosdep
+[ OK ] vcs
+[ OK ] microxrceddsgen
+[ OK ] mavproxy.py
+[ OK ] gz (Gazebo Sim)
+[ OK ] бінарник arducopter
+
+=== ROS-пакети у ~/ardu_ws ===
+[ OK ] пакет ardupilot_msgs
+[ OK ] пакет ardupilot_sitl
+[ OK ] пакет ardupilot_gazebo
+[ OK ] пакет ardupilot_gz_bringup
+[ OK ] пакет ardupilot_gz_description
+[ OK ] пакет ardupilot_gz_gazebo
+[ OK ] пакет ros_gz_bridge
+[ OK ] пакет ros_gz_sim
+[ OK ] пакет micro_ros_agent
+
+=== Налаштування ===
+[ OK ] GZ_VERSION=harmonic
+[ OK ] SDF_PATH містить ardupilot_gazebo
+[FAIL] launch: render-engine-gui ogre (встановлено)
+[ OK ] start_sim.sh
+[ OK ] stop_sim.sh
+NAME      TYPE SIZE USED PRIO
+/swapfile file   2G   0B   -2
